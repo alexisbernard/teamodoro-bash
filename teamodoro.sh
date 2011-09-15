@@ -15,7 +15,7 @@ stop)
   play $dir/stop.wav
   ;;
 *)
-  echo "Bad command, ony start and stop are accepted."
+  echo "Bad command, only start and stop are accepted."
   exit 1
 esac
 
