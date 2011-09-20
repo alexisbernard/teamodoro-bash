@@ -1,0 +1,11 @@
+== About
+Teamodoro is a tool to help your team to synchronize according the Pomodoro methodology.
+
+== Features
+* Play a sound on start/end of a pomodoro
+* Display countdown on a led board
+
+== Installation
+sudo apt-get install sox # To play sounds
+Install dcled drivers http://www.jeffrika.com/~malakai/dcled/index.html
+
