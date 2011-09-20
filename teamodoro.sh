@@ -6,7 +6,7 @@
 # 25,55 9,10,11,12 * * * teamodoro.sh stop
 
 function teamodoro-show-countdown {
-  for n in `seq $2 -1 0`; do
+  for n in `seq $2 -1 1`; do
     dcled -m "$1 $n min left" -r &
     pid=$!
     sleep 60
